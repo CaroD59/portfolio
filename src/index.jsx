@@ -5,18 +5,24 @@ import ReactDOM from 'react-dom';
 import { Reset } from 'styled-reset';
 import App from './App';
 
-const IndexStyled = styled.div`
+const BackgroundApp = styled.div`
+  background-image: url(./img/bg.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
   margin: 0;
 `;
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Reset />
-      <App />
+      <BackgroundApp>
+        <Reset />
+        <App />
+      </BackgroundApp>
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-export default IndexStyled;
+export default BackgroundApp;
