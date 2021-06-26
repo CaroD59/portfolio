@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import StyleHeader from './styles';
+import StyleHeader from './Styles';
 
 export default function NavBar() {
   return (
@@ -11,7 +11,7 @@ export default function NavBar() {
             <img src="/img/me.jpg" alt="logo" className="LogoImg" />
           </a>
         </div>
-        <div className="Links">
+        <div className="Pages">
           <ul>
             <li className="Home">
               <NavLink to="/">Home</NavLink>
