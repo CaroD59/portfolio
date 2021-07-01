@@ -1,4 +1,8 @@
-import { FaBroom } from 'react-icons/fa';
+import { AiFillHtml5 } from 'react-icons/ai';
+import { GrMysql } from 'react-icons/gr';
+import { IoLogoNodejs } from 'react-icons/io';
+import { FaReact } from 'react-icons/fa';
+import { SiJavascript, SiCss3 } from 'react-icons/si';
 import StyleHome from './Styles';
 
 export default function Home() {
@@ -28,27 +32,14 @@ export default function Home() {
           <div className="pPhoto">
             <p>Nom : Dorchies</p>
             <p className="Infos">Prénom : Caroline</p>
-            <p className="Infos">Niveau : 30</p>
+            <p className="Infos">Âge : 30</p>
             <p className="Infos">Lieu : Lille</p>
             <p className="Infos">
-              Linkedin : cliquez sur ce portoloin
-              <a
-                href="https://www.linkedin.com/in/dorchies-c/ "
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaBroom />
-              </a>
+              Profession : Développeuse Web Junior FullStack
             </p>
             <p className="Infos">
-              Github : cliquez sur ce portoloin
-              <a
-                href="https://github.com/CaroD59"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaBroom />
-              </a>
+              Technos : <AiFillHtml5 /> <SiCss3 /> <SiJavascript /> <FaReact />{' '}
+              <IoLogoNodejs /> <GrMysql />
             </p>
           </div>
         </div>

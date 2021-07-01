@@ -16,13 +16,14 @@ const StyleHome = styled.div`
     .Presentation {
       color: #b3a8a8;
       font-family: serif, sans-serif;
+      border: solid 1px #b3a8a8;
       font-style: italic;
       font-size: 1.1em;
       padding: 20px;
       margin-top: 50px;
       width: 350px;
       height: 500px;
-      background-color: black;
+      background-color: #221e1e;
       border-radius: 30px;
       margin-right: 10%;
       .TitlePresentation {
@@ -41,13 +42,13 @@ const StyleHome = styled.div`
     .Photo {
       color: #b3a8a8;
       font-family: serif, sans-serif;
-      font-style: italic;
+      border: solid 1px #b3a8a8;
       font-size: 1.1em;
       padding: 20px;
       margin-top: 50px;
       width: 350px;
       height: 500px;
-      background-color: black;
+      background-color: #221e1e;
       border-radius: 30px;
 
       .TitlePhoto {

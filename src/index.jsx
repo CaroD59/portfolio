@@ -8,8 +8,8 @@ import App from './App';
 const BackgroundApp = styled.div`
   background-image: url(./img/bg.jpg);
   background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  min-width: 100vw;
   margin: 0;
 `;
 
