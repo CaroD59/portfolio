@@ -1,3 +1,5 @@
+![me](https://user-images.githubusercontent.com/76882345/125252762-04313580-e2f9-11eb-8477-b5e54988268d.jpg)
+
 ![1](https://user-images.githubusercontent.com/76882345/123518966-bf768f00-d6a8-11eb-87ac-491a6032bed7.png)
 
 # 1 - Install ESLint
