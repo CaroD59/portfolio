@@ -28,14 +28,66 @@ const StyleHome = styled.div`
       .TitlePresentation {
         text-align: center;
       }
-      .Hobbies {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 50px;
-      }
+      .TitleLanguages,
       .TitleHobbies {
         text-align: center;
+        margin-top: 50px;
+      }
+      .Technos,
+      .Languages,
+      .Hobbies {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 50px;
+        .hobbieslist {
+          font-size: 1.5em;
+        }
+        .flags img {
+          width: 3vw;
+          height: 6vh;
+        }
+        .technoslist0 {
+          font-size: 1.5em;
+          :hover {
+            color: #e44d26;
+          }
+        }
+        .technoslist1 {
+          font-size: 1.5em;
+          :hover {
+            color: #2368e0;
+          }
+        }
+        .technoslist2 {
+          font-size: 1.5em;
+          :hover {
+            color: #efd81d;
+          }
+        }
+        .technoslist3 {
+          font-size: 1.5em;
+          :hover {
+            color: #00d0f6;
+          }
+        }
+        .technoslist4 {
+          font-size: 1.5em;
+          :hover {
+            color: #88c249;
+          }
+        }
+        .technoslist5 {
+          font-size: 1.5em;
+          :hover {
+            color: #005e86;
+          }
+        }
+      }
+      .TitleTechnos {
+        text-align: center;
+        margin-top: 20px;
       }
       .pPrésentation1 {
         margin-top: 50px;
@@ -77,13 +129,13 @@ const StyleHome = styled.div`
         border-radius: 50%;
       }
       .pPhoto {
-        margin-top: 10px;
+        margin-top: 25px;
         .Infos {
           margin-top: 20px;
           a {
             text-decoration: none;
             font-family: 'Pixeled';
-            font-size: 1em;
+            font-size: 1.5em;
             color: #b3a8a8;
             margin-left: 20px;
           }

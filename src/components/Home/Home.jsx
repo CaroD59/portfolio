@@ -1,8 +1,11 @@
 import { AiFillHtml5 } from 'react-icons/ai';
 import { GrMysql } from 'react-icons/gr';
-import { IoLogoNodejs } from 'react-icons/io';
-import { FaReact } from 'react-icons/fa';
-import { SiJavascript, SiCss3 } from 'react-icons/si';
+import { IoLogoNodejs, IoMdMicrophone } from 'react-icons/io';
+import { FaReact, FaChessPawn } from 'react-icons/fa';
+import { MdMovieFilter } from 'react-icons/md';
+import { BiCodeAlt } from 'react-icons/bi';
+import { GiCat } from 'react-icons/gi';
+import { SiJavascript, SiCss3, SiYoutubegaming } from 'react-icons/si';
 import StyleHome from './Styles';
 
 export default function Home() {
@@ -37,20 +40,58 @@ export default function Home() {
             <p className="Infos">
               Profession : Développeuse Web Junior FullStack
             </p>
-            <p className="Infos">
-              Technos : <AiFillHtml5 /> <SiCss3 /> <SiJavascript /> <FaReact />{' '}
-              <IoLogoNodejs /> <GrMysql />
-            </p>
           </div>
         </div>
         <div className="Presentation">
+          <h2 className="TitleTechnos">Technologies</h2>
+          <div className="Technos">
+            <div className="technoslist0">
+              <AiFillHtml5 />
+            </div>
+            <div className="technoslist1">
+              <SiCss3 />
+            </div>
+            <div className="technoslist2">
+              <SiJavascript />
+            </div>
+            <div className="technoslist3">
+              <FaReact />
+            </div>
+            <div className="technoslist4">
+              <IoLogoNodejs />
+            </div>
+            <div className="technoslist5">
+              <GrMysql />
+            </div>
+          </div>
+          <h2 className="TitleLanguages">Langues étrangères</h2>
+          <div className="Languages">
+            <div className="flags">
+              <img src="img/fr.png" alt="" />
+            </div>
+            <div className="flags">
+              <img src="img/en.png" alt="" />
+            </div>
+          </div>
           <h2 className="TitleHobbies">Hobbies</h2>
           <div className="Hobbies">
-            <div className="hobbielist">
-              <img src="img/games.png" alt="" />
+            <div className="hobbieslist">
+              <GiCat />
             </div>
-            <div className="hobbielist">
-              <img src="img/board.png" alt="" />
+            <div className="hobbieslist">
+              <SiYoutubegaming />
+            </div>
+            <div className="hobbieslist">
+              <FaChessPawn />
+            </div>
+            <div className="hobbieslist">
+              <MdMovieFilter />
+            </div>
+            <div className="hobbieslist">
+              <IoMdMicrophone />
+            </div>
+            <div className="hobbieslist">
+              <BiCodeAlt />
             </div>
           </div>
         </div>
