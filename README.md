@@ -1,4 +1,17 @@
-![me](https://user-images.githubusercontent.com/76882345/125252762-04313580-e2f9-11eb-8477-b5e54988268d.jpg)
+![Farm](https://user-images.githubusercontent.com/76882345/125263889-af46ec80-e303-11eb-87c4-86d70b7baab2.png)
+
+![Compass](https://user-images.githubusercontent.com/76882345/125263892-afdf8300-e303-11eb-94c4-03e656346196.png)
+
+![Portfolio](https://user-images.githubusercontent.com/76882345/125263895-b0781980-e303-11eb-9bd6-b4c0c449f584.png)
+
+![Adopte](https://user-images.githubusercontent.com/76882345/125263896-b0781980-e303-11eb-909f-d722ee6f919c.png)
+
+![USG](https://user-images.githubusercontent.com/76882345/125263897-b110b000-e303-11eb-9a9b-4af64f342482.png)
+
+![EMars](https://user-images.githubusercontent.com/76882345/125263898-b110b000-e303-11eb-8527-28d6bbe2c1c4.png)
+
+![Fiver](https://user-images.githubusercontent.com/76882345/125263901-b110b000-e303-11eb-8602-1c66b959ec90.png)
+
 
 ![1](https://user-images.githubusercontent.com/76882345/123518966-bf768f00-d6a8-11eb-87ac-491a6032bed7.png)
 
