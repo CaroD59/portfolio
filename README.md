@@ -1,3 +1,6 @@
+![1](https://user-images.githubusercontent.com/76882345/125304454-e5996180-e32d-11eb-84d9-ad2d025e8c1b.png)
+
+
 # 1 - Install ESLint
 
 1. In Visual Studio Code go to View -> Extensions
