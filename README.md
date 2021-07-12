@@ -138,7 +138,7 @@ git config --global core.autocrlf input
 
 ![LogoUSG](https://user-images.githubusercontent.com/76882345/125309016-b08f0e00-e331-11eb-8fb8-ff8befeb2b0b.png)
 
-![robot](https://user-images.githubusercontent.com/76882345/125309028-b4bb2b80-e331-11eb-862b-9fc65b5d0238.png)
+![e-marsLogo](https://user-images.githubusercontent.com/76882345/125309486-18ddef80-e332-11eb-96a8-93552ba0b3dc.png)
 
 ![Fiver](https://user-images.githubusercontent.com/76882345/125263901-b110b000-e303-11eb-8602-1c66b959ec90.png)
 
