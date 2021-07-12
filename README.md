@@ -1,5 +1,3 @@
-![1](https://user-images.githubusercontent.com/76882345/123518966-bf768f00-d6a8-11eb-87ac-491a6032bed7.png)
-
 # 1 - Install ESLint
 
 1. In Visual Studio Code go to View -> Extensions
@@ -126,3 +124,19 @@ Force Git to use LF everywhere:
 git config --global core.eol lf
 git config --global core.autocrlf input
 ```
+
+![Farm](https://user-images.githubusercontent.com/76882345/125263889-af46ec80-e303-11eb-87c4-86d70b7baab2.png)
+
+![Compass](https://user-images.githubusercontent.com/76882345/125263892-afdf8300-e303-11eb-94c4-03e656346196.png)
+
+![Portfolio](https://user-images.githubusercontent.com/76882345/125263895-b0781980-e303-11eb-9bd6-b4c0c449f584.png)
+
+![Adopte](https://user-images.githubusercontent.com/76882345/125263896-b0781980-e303-11eb-909f-d722ee6f919c.png)
+
+![USG](https://user-images.githubusercontent.com/76882345/125263897-b110b000-e303-11eb-9a9b-4af64f342482.png)
+
+![EMars](https://user-images.githubusercontent.com/76882345/125264436-27adad80-e304-11eb-9c36-f8174498ea5e.png)
+
+![Fiver](https://user-images.githubusercontent.com/76882345/125263901-b110b000-e303-11eb-8602-1c66b959ec90.png)
+
+
