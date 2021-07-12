@@ -3,7 +3,9 @@ import styled from 'styled-components';
 const StyleFooter = styled.div`
   .Main-Footer {
     color: white;
-    padding-right: 5%;
+    padding-left: 1%;
+    position: fixed;
+    bottom: 0;
   }
 `;
 

@@ -5,7 +5,7 @@ import CreationStyle from './Styles';
 export default function Creations() {
   const [creations, setCreations] = useState([]);
   useEffect(() => {
-    axios.get(`http://localhost:8080/creations`).then(({ data }) => {
+    axios.get(`${process.env.REACT_APP_API_URL}/creations`).then(({ data }) => {
       setCreations(data);
     });
   }, []);

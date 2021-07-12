@@ -9,7 +9,7 @@ const StyleHome = styled.div`
   .BigContainer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     text-overflow: clip;
     text-align: justify;
     overflow: hidden;
@@ -25,8 +25,16 @@ const StyleHome = styled.div`
       height: 500px;
       background-color: #221e1e;
       border-radius: 30px;
-      margin-right: 10%;
       .TitlePresentation {
+        text-align: center;
+      }
+      .Hobbies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+      }
+      .TitleHobbies {
         text-align: center;
       }
       .pPrésentation1 {

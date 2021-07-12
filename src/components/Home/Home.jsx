@@ -43,6 +43,17 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <div className="Presentation">
+          <h2 className="TitleHobbies">Hobbies</h2>
+          <div className="Hobbies">
+            <div className="hobbielist">
+              <img src="img/games.png" alt="" />
+            </div>
+            <div className="hobbielist">
+              <img src="img/board.png" alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     </StyleHome>
   );

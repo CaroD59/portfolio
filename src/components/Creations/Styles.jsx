@@ -1,14 +1,20 @@
 import styled from 'styled-components';
 
 const CreationStyle = styled.div`
+  @font-face {
+    font-family: 'Pixeled';
+    src: local('Pixeled'), url('/fonts/Pixeled.ttf') format('truetype');
+  }
   .BlocTitle {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     .Title {
       text-align: center;
-      h2 {
-        color: #b3a8a8;
-      }
+      font-family: 'Pixeled';
+      font-size: 1.3em;
+      color: #b3a8a8;
+      padding: 10px;
     }
   }
   a {
@@ -17,7 +23,7 @@ const CreationStyle = styled.div`
   .Projects {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     .Project {
@@ -45,10 +51,11 @@ const CreationStyle = styled.div`
       .image {
         display: flex;
         justify-content: center;
+        overflow-y: hidden;
         .ImageSize {
           border-radius: 8px;
           background-size: cover;
-          max-width: 100%;
+          width: 100%;
         }
       }
       .Name {

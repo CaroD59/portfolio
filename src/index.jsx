@@ -9,7 +9,8 @@ const BackgroundApp = styled.div`
   background-image: url(./img/bg.jpg);
   background-size: cover;
   min-height: 100vh;
-  min-width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
   margin: 0;
 `;
 
