@@ -1,6 +1,3 @@
-![1](https://user-images.githubusercontent.com/76882345/125304454-e5996180-e32d-11eb-84d9-ad2d025e8c1b.png)
-
-
 # 1 - Install ESLint
 
 1. In Visual Studio Code go to View -> Extensions
@@ -138,7 +135,7 @@ git config --global core.autocrlf input
 
 ![LogoUSG](https://user-images.githubusercontent.com/76882345/125309016-b08f0e00-e331-11eb-8fb8-ff8befeb2b0b.png)
 
-![e-marsLogo](https://user-images.githubusercontent.com/76882345/125309486-18ddef80-e332-11eb-96a8-93552ba0b3dc.png)
+![robot](https://user-images.githubusercontent.com/76882345/125428557-8c735c40-0f56-46de-8384-e51c1ce5e3dc.png)
 
 ![Fiver](https://user-images.githubusercontent.com/76882345/125263901-b110b000-e303-11eb-8602-1c66b959ec90.png)
 
