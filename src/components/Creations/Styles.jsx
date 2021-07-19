@@ -5,29 +5,19 @@ const CreationStyle = styled.div`
     font-family: 'Pixeled';
     src: local('Pixeled'), url('/fonts/Pixeled.ttf') format('truetype');
   }
-  .BlocTitle {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    .Title {
-      text-align: center;
-      font-family: 'Pixeled';
-      font-size: 1.3em;
-      color: #b3a8a8;
-      padding: 10px;
-    }
-  }
+
   a {
     text-decoration: none;
   }
   .Projects {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: 30px;
     .Project {
-      padding: 20px;
+      padding: 15px;
       margin: 0;
       background-color: #221e1e;
       display: flex;
@@ -35,12 +25,12 @@ const CreationStyle = styled.div`
       justify-content: space-around;
       border-radius: 8px;
       border: solid 1px #b3a8a8;
-      width: 400px;
-      height: 400px;
+      width: 300px;
+      height: 300px;
       margin-top: 20px;
       margin-left: 20px;
       margin-right: 20px;
-      margin-bottom: 100px;
+      margin-bottom: 30px;
       :hover {
         transform: scale(1.02);
         cursor: pointer;
@@ -55,15 +45,20 @@ const CreationStyle = styled.div`
         .ImageSize {
           border-radius: 8px;
           background-size: cover;
-          width: 100%;
+          width: 80%;
         }
       }
       .Name {
         text-align: center;
         font-weight: bold;
+        font-family: 'Pixeled';
+        font-size: 1.3em;
         color: #b3a8a8;
         margin-top: 20px;
         margin-bottom: 20px;
+        :hover {
+          color: #942222;
+        }
       }
       .Description {
         margin-top: 10px;

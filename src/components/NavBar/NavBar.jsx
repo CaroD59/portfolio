@@ -19,9 +19,6 @@ export default function NavBar() {
             <li className="Creations">
               <NavLink to="/creations">Créations</NavLink>
             </li>
-            <li className="Career">
-              <NavLink to="/career">Parcours</NavLink>
-            </li>
             <li className="Contact">
               <NavLink to="/contact">Contact</NavLink>
             </li>

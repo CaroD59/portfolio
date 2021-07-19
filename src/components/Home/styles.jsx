@@ -17,7 +17,6 @@ const StyleHome = styled.div`
       color: #b3a8a8;
       font-family: serif, sans-serif;
       border: solid 1px #b3a8a8;
-      font-style: italic;
       font-size: 1.1em;
       padding: 20px;
       margin-top: 50px;
@@ -27,11 +26,15 @@ const StyleHome = styled.div`
       border-radius: 30px;
       .TitlePresentation {
         text-align: center;
+        font-style: italic;
       }
       .TitleLanguages,
       .TitleHobbies {
         text-align: center;
         margin-top: 50px;
+        font-family: 'Pixeled';
+        font-size: 1.3em;
+        color: #b3a8a8;
       }
       .Technos,
       .Languages,
@@ -88,15 +91,20 @@ const StyleHome = styled.div`
       .TitleTechnos {
         text-align: center;
         margin-top: 20px;
+        font-family: 'Pixeled';
+        font-size: 1.3em;
+        color: #b3a8a8;
       }
       .pPrésentation1 {
         margin-top: 50px;
+        font-style: italic;
       }
       .pPrésentation2 {
         margin-top: 50px;
         text-align: center;
         font-family: Yoshi;
         font-size: 1.5em;
+        font-style: italic;
       }
     }
     .Photo {
@@ -129,7 +137,31 @@ const StyleHome = styled.div`
         border-radius: 50%;
       }
       .pPhoto {
-        margin-top: 25px;
+        margin-top: 20px;
+        .btn {
+          margin-top: 12px;
+          background-color: transparent;
+          border: none;
+          border-radius: 5px;
+          font-family: serif, sans-serif;
+          font-weight: bold;
+          font-size: 15px;
+          width: 350px;
+          height: 45px;
+          a {
+            text-decoration: none;
+            color: #b3a8a8;
+            padding: 7px;
+            border-radius: 10px;
+            border-top: #942222 solid 2px;
+            border-left: #942222 solid 2px;
+            :hover {
+              color: #942222;
+              border-top: #b3a8a8 solid 2px;
+              border-left: #b3a8a8 solid 2px;
+            }
+          }
+        }
         .Infos {
           margin-top: 20px;
           a {

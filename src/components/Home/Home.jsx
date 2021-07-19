@@ -40,6 +40,15 @@ export default function Home() {
             <p className="Infos">
               Profession : Développeuse Web Junior FullStack
             </p>
+            <button type="button" className="btn">
+              <a
+                href="https://www.dropbox.com/s/ifl3z5z5bp0xjie/Caroline%20Dorchies%20-%20CV%20D%C3%A9veloppeuse%20Web%20Junior.pdf?dl=0"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Télécharger mon CV
+              </a>
+            </button>
           </div>
         </div>
         <div className="Presentation">

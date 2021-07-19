@@ -24,6 +24,7 @@ const StyleHeader = styled.div`
     .LogoImg {
       width: 90px;
       height: 90px;
+      border: #942222 solid 2px;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
@@ -31,6 +32,7 @@ const StyleHeader = styled.div`
       border-radius: 50%;
       :hover {
         transform: scale(1.02);
+        border: #b3a8a8 solid 2px;
         cursor: pointer;
         box-shadow: 10px 11px 20px -16px rgba(0, 0, 0, 0.75);
         -webkit-box-shadow: 10px 11px 20px -16px rgba(0, 0, 0, 0.75);

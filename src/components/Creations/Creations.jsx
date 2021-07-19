@@ -11,11 +11,6 @@ export default function Creations() {
   }, []);
   return (
     <CreationStyle>
-      <div className="BlocTitle">
-        <div className="Title">
-          <h2>Mes créations</h2>
-        </div>
-      </div>
       <div className="Projects">
         {creations.map((crea) => {
           return (
